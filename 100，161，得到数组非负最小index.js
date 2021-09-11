@@ -32,16 +32,13 @@ function getIndex(arr){
 }
 
 
-
-//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
-
-
+// ihost 配置
 // ##
 // # Host Database
 // #
 // # localhost is used to configure the loopback interface
 // # when the system is booting.  Do not change this entry.
-// ##
+// ## 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
 // 127.0.0.1	localhost
 // 255.255.255.255	broadcasthost
 // ::1             localhost
