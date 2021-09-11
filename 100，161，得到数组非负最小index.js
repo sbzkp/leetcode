@@ -36,6 +36,23 @@ function getIndex(arr){
 //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
 
 
+// ##
+// # Host Database
+// #
+// # localhost is used to configure the loopback interface
+// # when the system is booting.  Do not change this entry.
+// ##
+// 127.0.0.1	localhost
+// 255.255.255.255	broadcasthost
+// ::1             localhost
+// 185.199.108.133 raw.githubusercontent.com
+// #13.250.177.223 github.com
+// 140.82.113.3 github.com 
+// 199.232.69.194 github.global.ssl.fastly.net
+// 185.199.108.153 assets-cdn.github.com
+// 185.199.109.153 assets-cdn.github.com
+// 185.199.110.153 assets-cdn.github.com
+// 185.199.111.153 assets-cdn.github.com
 
 
 
