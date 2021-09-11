@@ -30,3 +30,4 @@ function getIndex(arr){
     }, null)
     return index;
 }
+
