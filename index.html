@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 浏览器采取何种版本渲染当前页面 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- name主要用于描述网页，比如网页的关键字。叙述 -->
+    <!-- viewport 移动端的窗口 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+        在 Meta 标签中使用 pragma、cache-control、expires 来控制缓存,
+        这些标签往往不会生效（有些浏览器不支持），并且所有缓存代理服务器都不支持，因为代理不解析HTML内容本身。
+        甚至在HTML5规范中，http-equiv 中的属性并不包括这三个，如果我们需要进行缓存控制的话，最好还是通过 HTTP headers 来进行设置。
+     -->
+    <title>Document</title>
+    <style>
+        .flex-box{
+            display: flex;
+            width: 600px;
+            height: 100px;
+            border: 1px solid green;
+            flex-wrap: wrap;
+        }
+        .item{
+            width: 50px;
+            border: 1px solid red ;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-box">
+        <div class="item"> item </div>
+        <div class="item"> item </div>
+        <div class="item"> item </div>
+        <div class="item"> item </div>
+        <div class="item"> item </div>
+        <div class="item"> item </div>
+        <div class="item"> item </div>
+        <div class="item"> item </div>
+        <div class="item"> item </div>
+        <div class="item"> item </div>
+        <div class="item"> item </div>
+        <div class="item"> item </div>
+        <div class="item"> item </div>
+        <div class="item"> item </div>
+        <div class="item"> item </div>
+        <div class="item"> item </div>
+
+    </div>
+</body>
+</html>

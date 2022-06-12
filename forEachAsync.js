@@ -1,4 +1,4 @@
-
+// https://thecodebarbarian.com/for-vs-for-each-vs-for-in-vs-for-of-in-javascript
 /*
 	https://github.com/Advanced-Frontend/Daily-Interview-Question
 	第 160 题：输出以下代码运行结果，为什么？如果希望每隔 1s 输出一个结果，应该如何改造？注意不可改动 square 方法
@@ -6,22 +6,36 @@
 
 	const list = [1, 2, 3]
 	const square = num => {
-	return new Promise((resolve, reject) => {
-		setTimeout(() => {
-		resolve(num * num)
-		}, 1000)
-	})
+		return new Promise((resolve, reject) => {
+			setTimeout(() => {
+				resolve(num * num)
+			}, 1000)
+		})
 	}
 
 	function test() {
-	list.forEach(async x=> {
-		const res = await square(x)
-		console.log(res)
-	})
+		list.forEach(async x=> {
+			const res = await square(x)
+			console.log(res)
+		})
 	}
 	test()
 
 */
+
+
+async function test() {
+	new Promise(( resolve, reject )=>{
+		setTimeout(()=>{
+			resolve()
+		}, 1000)
+	})
+
+	for (let i = 0; i < list.length; i++) {
+		const res = await square(x)
+		console.log(res)
+	}
+}
 
 
 // xxxxxxxxx
